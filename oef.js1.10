@@ -2,3 +2,5 @@ let leeftijd :string = prompt(message:"ben je 18 jaar of ouder?");
 let uitkomst;
 
 uitkomst = (leeftijd.toLowerCase() === "ja") ? "toegelaten op website" : "Helaas, te jong!";
+
+alert(uitkomst);
