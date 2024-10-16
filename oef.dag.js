@@ -1,3 +1,5 @@
+<!doctype html>
+
 let dag : number = new date().getDay()
 let uitkomst;
 console.log(dag);
@@ -29,3 +31,13 @@ switch (dag) {
 }
 
 document.getElementbyId(element:"uitkomst").innertext = "het is vandaag"+uitkomst + ".";
+
+
+
+let uitkomst = "";
+
+for(let teller =1; teller <= 10; teller++){
+    uitkomst = uitkomst + "de teller staat op: " + teller +"<br>";
+}
+
+document.getElementById(elementId: "uitkomst").innerHTML = uitkomst;")

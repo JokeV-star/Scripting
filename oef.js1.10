@@ -1,6 +1,17 @@
-let leeftijd :string = prompt(message:"ben je 18 jaar of ouder?");
+<!doctype HTML>
+ <html lang="en>
+let aantalLijnen =:string = prompt(message: "Uit hoeveel lijnen moet de driehoek bestaan?");
 let uitkomst;
 
-uitkomst = (leeftijd.toLowerCase() === "ja") ? "toegelaten op website" : "Helaas, te jong!";
-
-alert(uitkomst);
+uitkomst =(aantalLijnen.toLowerCase() === "3") ? "#
+                                                  ##
+                                                  ###";
+uitkomst =(aantalLijnen.toLowerCase() === "4") ? "#
+                                                  ##
+                                                  ###
+                                                  ####";
+uitkomst =(aantalLijnen.toLowerCase() === "5") ? "#
+                                                  ##
+                                                  ###
+                                                  ####
+                                                  #####";

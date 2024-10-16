@@ -1,4 +1,5 @@
-<!Doctype HTML>
+<!Doctype HTML >
+< html lang = "nl" >
 let leeftijd :string = prompt(message:"ben je 20 jaar of ouder?");
 let uitkomst;
 
